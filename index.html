@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect with Hidden Cafe</title>
+  <style>
+    /* Basic Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: #f4f4f4;
+      text-align: center;
+      height: 100vh; /* Ensure it takes the full height */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden; /* Prevents scroll */
+    }
+    .container {
+      max-width: 500px;
+      width: 100%;
+      margin: 0;
+      padding: 20px;
+      background: #1e1e1e;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+    .logo {
+      max-width: 150px;
+      margin: 0 auto 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+      color: #f4f4f4;
+      font-size: 24px;
+    }
+    p {
+      margin-bottom: 30px;
+      font-size: 16px;
+      color: #cfcfcf;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      background: #454545;
+      color: #fff;
+      font-size: 18px;
+      margin: 10px auto;
+      padding: 15px 20px;
+      border-radius: 5px;
+      width: 80%;
+      text-align: left;
+      transition: 0.3s ease;
+    }
+    .btn img {
+      width: 30px;
+      height: 30px;
+      margin-right: 15px;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background: #0056b3;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    /* Mobile Styles */
+    @media (max-width: 600px) {
+      body {
+        padding: 0;
+        height: auto;
+      }
+      .container {
+        margin: 0;
+        padding: 10px; /* Reduced padding */
+        max-width: 100%; /* Full width */
+        box-sizing: border-box;
+      }
+      h1 {
+        font-size: 20px;
+      }
+      .btn {
+        font-size: 16px;
+        padding: 12px 15px;
+        width: 90%; /* Ensure buttons fit well */
+      }
+      .logo {
+        max-width: 120px;
+        margin-bottom: 15px;
+      }
+      .footer {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hidden Cafe Logo -->
+    <img src="static\images\Hidden_Logo.png" alt="Hidden Cafe Logo" class="logo">
+    
+    <h1>Connect with Hidden Cafe</h1>
+    <p>We’d love to hear from you! Choose an option below to connect with us:</p>
+
+    <!-- Google Review -->
+    <a href="https://www.google.com/search?q=google+hidden+cafe+jalgaon&rlz=1C1ONGR_enIN1093IN1129&oq=google+hidden+cafe+jalgaon&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEJMTYxMDNqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8#lrd=0x3bd90f437e465a69:0xd37aea36a1249caf,3,,," target="_blank" class="btn" id="googleLink">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAABzElEQVR4Ab2WAUQDURjHDw0QIAQkAVBaMwvDJiMbY7QgFgAkAAGZZUASFiyAnQUEotMIGUKgAAYNWxY20Gyv9+d57d52X99mN/zcuee933vv/b+7sxKnyX9pxUORVixUkNe6pCMRQN3XVVuEMxbZ2E4Ej7WARwd9phbKGa/Izg2+aIwGxmAJsTUSMRcmSP2UFcgVqm0UDBzJjcKhZYSQcWZZIsVZjgz8pTEaGniI6mYnQnzCKothzfruFteFKeXL+Fh9J7DdfwyI4ZMlcIUUQDhnmRZeQDTKV3ZLnYU/wmdTiNWenReXqY6xQq8suZ6C8m6psiKFS21TiGeUTAnFDCQsQ6aEgRd/hN3c4oWL3VIIjdAgMMzQNCXvHjS9z1CVxWgtHt4lxaadIcuCkWBhgpS6Cv/jYU0E7YyGL+Ftt+vVVr0PidXKgUu4Y2de57U6PNfCVDWVM2WzSGP5nzwRmg0tBHLgTwg8pD3JkZcoaKfDmFj08k3E84NJstrY9xAHaoi85I6kpMB9T7dX90Tk9sqUuhI/NlNCxkJJXaVgfg99keKKQmf9JmJ7iTNlkg5P/SOMoOgzYmK+MGghkUIMpEKiV457pFMFaJ8z1i/ATnOr+aZzdAAAAABJRU5ErkJggg==" alt="Google Logo">
+      Give Us a Review on Google
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/_hidden_cafe_/" target="_blank" class="btn" id="instagramLink">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+      Follow Us on Instagram
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/yourwhatsapplink" target="_blank" class="btn" id="whatsappLink">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+      Join Our WhatsApp Channel
+    </a>
+
+    <div class="footer">
+        <p>&copy; 2024 Hidden Cafe. All Rights Reserved.</p>
+      </div>
+    </div>
+  
+    <script>
+      // Check if the "Thank You" page has already been visited
+      if (localStorage.getItem('visitedLinks') === 'true') {
+        window.location.href = 'thankyou.html'; // Redirect to Thank You page
+      }
+  
+      // Track the links that have been clicked
+      document.getElementById('googleLink').addEventListener('click', function() {
+        markLinkAsVisited('google');
+      });
+      document.getElementById('instagramLink').addEventListener('click', function() {
+        markLinkAsVisited('instagram');
+      });
+      document.getElementById('whatsappLink').addEventListener('click', function() {
+        markLinkAsVisited('whatsapp');
+      });
+  
+      function markLinkAsVisited(link) {
+        // Retrieve the visited status from localStorage
+        let visitedLinks = JSON.parse(localStorage.getItem('visitedLinksStatus')) || {};
+        visitedLinks[link] = true;
+  
+        // Save the updated status back to localStorage
+        localStorage.setItem('visitedLinksStatus', JSON.stringify(visitedLinks));
+  
+        // Check if all links have been visited
+        if (visitedLinks.google && visitedLinks.instagram && visitedLinks.whatsapp) {
+          // Set the flag to true after some delay to allow user to view the last link
+          setTimeout(function() {
+            localStorage.setItem('visitedLinks', 'true');
+            window.location.href = 'thankyou.html'; // Redirect to Thank You page
+          }, 500); // 500ms delay to let the last link content show before redirect
+        }
+      }
+    </script>
+  </body>
+  </html>

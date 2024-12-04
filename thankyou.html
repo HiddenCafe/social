@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You - Hidden Cafe</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: #f4f4f4;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .container {
+      max-width: 500px;
+      width: 100%;
+      margin: 0;
+      padding: 20px;
+      background: #1e1e1e;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+    .logo {
+      max-width: 150px;
+      margin: 0 auto 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+      color: #f4f4f4;
+      font-size: 24px;
+    }
+    p {
+      margin-bottom: 30px;
+      font-size: 16px;
+      color: #cfcfcf;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    /* Mobile Styles */
+    @media (max-width: 600px) {
+      body {
+        height: auto; /* Allow content to fit the screen */
+        padding: 0;
+      }
+      .container {
+        padding: 10px; /* Reduced padding */
+        max-width: 100%; /* Full width on mobile */
+      }
+      h1 {
+        font-size: 28px; /* Larger heading on mobile */
+      }
+      p {
+        font-size: 18px; /* Larger text for mobile */
+      }
+      .logo {
+        max-width: 120px; /* Smaller logo */
+      }
+      img[alt="Thank You Dog"] {
+        margin-left: -20px; /* Move the dog image to the left */
+        max-width: 90%; /* Ensure it fits well within the mobile screen */
+      }
+      .footer {
+        margin-top: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hidden Cafe Logo -->
+    <img src="static\images\Hidden_Logo.png" alt="Hidden Cafe Logo" class="logo">
+
+    <h1>Welcome to our Hidden Family!</h1>
+    <img src="static\images\thank-you-dog.gif" alt="Thank You Dog">
+
+    <div class="footer">
+      <p>We appreciate your time and support!</p>
+    </div>
+  </div>
+</body>
+</html>
